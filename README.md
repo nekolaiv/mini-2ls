@@ -1,8 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Project
 
-## Getting Started
+This is a Next.js project bootstrapped with `create-next-app`.
 
-First, run the development server:
+## Prerequisites
+
+Before setting up the project, ensure you have the following installed:
+
+1. **Node.js** (Latest LTS recommended)  
+   Download and install from Node.js official website.
+
+   After installation, verify by running:
+
+   ```bash
+   node -v
+   ```
+
+2. **Package Manager** (npm, yarn, or pnpm)
+   - npm comes with Node.js by default.
+   - To install Yarn, run:
+     ```bash
+     npm install -g yarn
+     ```
+   - To install pnpm, run:
+     ```bash
+     npm install -g pnpm
+     ```
+3. **Git** (optional, but recommended)  
+   Download and install from Git official website.
+   Verify installation:
+   ```bash
+   git --version
+   ```
+
+## Cloning the Repository
+
+To contribute or work with the existing codebase, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nekolaiv/mini-2ls.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd your-repo
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
@@ -10,27 +66,82 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions! Follow these steps to contribute:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Fork the repository** by clicking the "Fork" button on GitHub.
+2. **Clone your forked repository** to your local machine:
+   ```bash
+   git clone https://github.com/nekolaiv/mini-2ls.git
+   ```
+3. **Create a new branch** for your changes:
+   ```bash
+   git checkout -b feature-branch
+   ```
+4. **Make your changes** and commit them:
+   ```bash
+   git add .
+   git commit -m "Your commit message"
+   ```
+5. **Push your changes** to your forked repository:
+   ```bash
+   git push origin feature-branch
+   ```
+6. **Create a Pull Request (PR)** on GitHub from your forked repository to the main repository.
 
-## Learn More
+## Creating a NextJS Project (Only for Starting a New Project)
 
-To learn more about Next.js, take a look at the following resources:
+Once you have Node.js and a package manager installed, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1. Create a New Next.js App
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run one of the following commands to create a Next.js project:
 
-## Deploy on Vercel
+```bash
+npx create-next-app@latest my-next-app
+# or
+yarn create next-app my-next-app
+# or
+pnpm create next-app my-next-app
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Replace `my-next-app` with your desired project name.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2. Navigate to the Project Directory
+
+```bash
+cd my-next-app
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+## Running the Development Server
+
+To start the development server, use:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Then, open [http://localhost:3000](http://localhost:3000) in your browser to see the running application.
+
+## Project Structure
+
+You can start editing the project by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+You're now set up with a Next.js project! 🎉
